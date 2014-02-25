@@ -21,6 +21,18 @@
 		4AA1621F18694A6C00E6636D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1620118694A6C00E6636D /* UIKit.framework */; };
 		4AA1622718694A6C00E6636D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA1622518694A6C00E6636D /* InfoPlist.strings */; };
 		4AA1622918694A6C00E6636D /* TheCandleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1622818694A6C00E6636D /* TheCandleTests.m */; };
+		4AA1623318694C3F00E6636D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1623218694C3F00E6636D /* AVFoundation.framework */; };
+		4AA1623518694C4600E6636D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1623418694C4600E6636D /* CoreImage.framework */; };
+		4AA1623718694C4F00E6636D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1623618694C4F00E6636D /* CoreMedia.framework */; };
+		4AA1623918694C5500E6636D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1623818694C5500E6636D /* CoreVideo.framework */; };
+		4AA1623C18694C8000E6636D /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1623B18694C8000E6636D /* CameraManager.m */; };
+		4AA1624218695A9500E6636D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA1624118695A9500E6636D /* icon.png */; };
+		4AA1624A1869602E00E6636D /* MainView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA162491869602E00E6636D /* MainView.png */; };
+		4AA16250186964F800E6636D /* FinishedView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA1624F186964F800E6636D /* FinishedView.png */; };
+		4AA162521869660300E6636D /* again.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA162511869660300E6636D /* again.png */; };
+		4AA67A361869696E0042862C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA67A351869696E0042862C /* AudioToolbox.framework */; };
+		4AA67A3E186977CD0042862C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA67A3D186977CD0042862C /* Default@2x.png */; };
+		4AA67A42186978A50042862C /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA67A41186978A50042862C /* start.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,19 @@
 		4AA1622418694A6C00E6636D /* TheCandleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheCandleTests-Info.plist"; sourceTree = "<group>"; };
 		4AA1622618694A6C00E6636D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AA1622818694A6C00E6636D /* TheCandleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCandleTests.m; sourceTree = "<group>"; };
+		4AA1623218694C3F00E6636D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4AA1623418694C4600E6636D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4AA1623618694C4F00E6636D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4AA1623818694C5500E6636D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4AA1623A18694C8000E6636D /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		4AA1623B18694C8000E6636D /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		4AA1624118695A9500E6636D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4AA162491869602E00E6636D /* MainView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainView.png; sourceTree = "<group>"; };
+		4AA1624F186964F800E6636D /* FinishedView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinishedView.png; sourceTree = "<group>"; };
+		4AA162511869660300E6636D /* again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = again.png; sourceTree = "<group>"; };
+		4AA67A351869696E0042862C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4AA67A3D186977CD0042862C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4AA67A41186978A50042862C /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA67A361869696E0042862C /* AudioToolbox.framework in Frameworks */,
+				4AA1623918694C5500E6636D /* CoreVideo.framework in Frameworks */,
+				4AA1623718694C4F00E6636D /* CoreMedia.framework in Frameworks */,
+				4AA1623518694C4600E6636D /* CoreImage.framework in Frameworks */,
+				4AA1623318694C3F00E6636D /* AVFoundation.framework in Frameworks */,
 				4AA1620018694A6C00E6636D /* CoreGraphics.framework in Frameworks */,
 				4AA1620218694A6C00E6636D /* UIKit.framework in Frameworks */,
 				4AA161FE18694A6C00E6636D /* Foundation.framework in Frameworks */,
@@ -101,6 +131,11 @@
 		4AA161FC18694A6C00E6636D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AA67A351869696E0042862C /* AudioToolbox.framework */,
+				4AA1623418694C4600E6636D /* CoreImage.framework */,
+				4AA1623818694C5500E6636D /* CoreVideo.framework */,
+				4AA1623618694C4F00E6636D /* CoreMedia.framework */,
+				4AA1623218694C3F00E6636D /* AVFoundation.framework */,
 				4AA161FD18694A6C00E6636D /* Foundation.framework */,
 				4AA161FF18694A6C00E6636D /* CoreGraphics.framework */,
 				4AA1620118694A6C00E6636D /* UIKit.framework */,
@@ -117,6 +152,9 @@
 				4AA1620F18694A6C00E6636D /* Main.storyboard */,
 				4AA1621218694A6C00E6636D /* ViewController.h */,
 				4AA1621318694A6C00E6636D /* ViewController.m */,
+				4AA1623A18694C8000E6636D /* CameraManager.h */,
+				4AA1623B18694C8000E6636D /* CameraManager.m */,
+				4AA67A43186979670042862C /* images */,
 				4AA1621518694A6C00E6636D /* Images.xcassets */,
 				4AA1620418694A6C00E6636D /* Supporting Files */,
 			);
@@ -150,6 +188,19 @@
 				4AA1622518694A6C00E6636D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AA67A43186979670042862C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4AA162511869660300E6636D /* again.png */,
+				4AA162491869602E00E6636D /* MainView.png */,
+				4AA1624F186964F800E6636D /* FinishedView.png */,
+				4AA1624118695A9500E6636D /* icon.png */,
+				4AA67A3D186977CD0042862C /* Default@2x.png */,
+				4AA67A41186978A50042862C /* start.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +279,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA1624218695A9500E6636D /* icon.png in Resources */,
+				4AA67A42186978A50042862C /* start.png in Resources */,
 				4AA1621618694A6C00E6636D /* Images.xcassets in Resources */,
+				4AA67A3E186977CD0042862C /* Default@2x.png in Resources */,
 				4AA1620818694A6C00E6636D /* InfoPlist.strings in Resources */,
+				4AA162521869660300E6636D /* again.png in Resources */,
 				4AA1621118694A6C00E6636D /* Main.storyboard in Resources */,
+				4AA1624A1869602E00E6636D /* MainView.png in Resources */,
+				4AA16250186964F800E6636D /* FinishedView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +308,7 @@
 			files = (
 				4AA1621418694A6C00E6636D /* ViewController.m in Sources */,
 				4AA1620E18694A6C00E6636D /* AppDelegate.m in Sources */,
+				4AA1623C18694C8000E6636D /* CameraManager.m in Sources */,
 				4AA1620A18694A6C00E6636D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +518,7 @@
 				4AA1622E18694A6C00E6636D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AA1622F18694A6C00E6636D /* Build configuration list for PBXNativeTarget "TheCandleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +527,7 @@
 				4AA1623118694A6C00E6636D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

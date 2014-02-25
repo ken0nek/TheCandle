@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CameraManager.h"
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CameraManagerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>{
+    IBOutlet UIImageView *imageView;
+    IBOutlet UIButton *againButton;
+    
+    AudioQueueRef queue;
+    //NSTimer *timer;
+}
 
+@property CameraManager*            cameraManager;  //   カメラマネージャクラス
+@property IBOutlet UIImageView*     previewView;    //   プレビューを配置するビュー
+@property IBOutlet UIImageView*     captureview;    //   キャプチャ後のイメージ
+
+-(void)start;
+-(void)takePhoto;
 @end
