@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6AA7AB5-7174-4EEF-878A-C5E9C7E2CE06</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheCandle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F81D7C8E-9FF0-4195-AACF-BB91DB15D9FE</key>
+		<string>https://github.com/ken0nek/TheCandle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheCandle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F81D7C8E-9FF0-4195-AACF-BB91DB15D9FE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ken0nek/TheCandle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F81D7C8E-9FF0-4195-AACF-BB91DB15D9FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F81D7C8E-9FF0-4195-AACF-BB91DB15D9FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheCandle</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -158,7 +158,7 @@ static void AudioInputCallback(
     
     if (levelMeter.mPeakPower <= -100.0f) {
         [timer invalidate];
-        NSLog(@"うわあ");
+        NSLog(@"てすと");
         [self start];
     }
     
